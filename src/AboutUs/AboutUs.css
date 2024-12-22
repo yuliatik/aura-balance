@@ -1,0 +1,57 @@
+div {
+    /* font-family: 'Arial', sans-serif; */
+    /* font-family: "MonteCarlo", cursive; */
+    font-family: "Open Sans", serif; 
+    text-align: center;
+  }
+  
+  /* h1 {
+    font-size: 0px;
+    margin-bottom: 1rem;
+  } */
+  
+  div span {
+    font-size: 2rem;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: cadetblue;
+  }
+
+   h2, h3, p{
+    font-family: "Open Sans", serif;
+  }
+
+  p{
+    border: 1px solid white;    
+}
+  
+
+/* Gesamtes Layout der Container */
+.container {
+  display: flex; 
+  align-items: center; /* Vertikale Zentrierung (optional) */
+  justify-content: space-between; /* Abstand zwischen Text und Bild */
+  padding: 20px;
+}
+
+.text {
+  flex: 1; /* Nimmt den maximalen Platz ein */
+  padding-right: 20px; /* Abstand zum Bild */
+}
+
+.image {
+  flex: 1; /* Nimmt den maximalen Platz ein */
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 10px; /* Optionale abgerundete Ecken */
+}
+
+  
